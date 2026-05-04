@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashlesha Badgujar Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;              /* FIXED */
+  object-fit: cover;          /* FIXED */
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+  box-shadow: 0 0 25px rgba(56,189,248,0.6);
+  transition: 0.3s;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+}
+
+/* TEXT */
+.hero h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.hero p {
+  color: #94a3b8;
+}
+
+/* SECTION */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  padding: 10px 15px;
+  margin: 6px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* PROJECT CARD */
+.project {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.project a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTACT */
+.contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h3>Ashlesha Badgujar</h3>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <!-- MAKE SURE image name is profile.jpg -->
+  <img src="profile.jpg" alt="Ashlesha">
+  <h1>Hello, I'm Ashlesha Badgujar! 👋</h1>
+  <p>Computer Engineering student passionate about Data Analytics, AI, and building real-world solutions.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Power BI</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Excel</span>
+    <span>JIRA</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Renewable Energy Analytics Dashboard</h3>
+    <p>Power BI dashboard analyzing renewable energy data using Power Query and DAX with interactive filters.</p>
+    <a href="https://github.com/ashllesshaaB/renewable-energy-dashboard" target="_blank">View Project →</a>
+  </div>
+
+  <div class="project">
+    <h3>Nostalgia Trend Analysis</h3>
+    <p>AI-based project using Python and Streamlit to analyze social media trends using clustering and statistics.</p>
+    <a href="https://github.com/ashllesshaaB/Nostalgia-Trend-Analysis" target="_blank">View Project →</a>
+  </div>
+
+  <div class="project">
+    <h3>Secure Public Transport Ticket System</h3>
+    <p>Flask-based system with QR code validation, encryption, and fraud detection.</p>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: ashleshabadgujar@gmail.com</p>
+  <p>GitHub: <a href="https://github.com/ashllesshaaB" target="_blank">github.com/ashllesshaaB</a></p>
+  <p>LinkedIn: <a href="#">www.linkedin.com/in/ashllesshaa-badgujar-0448b325b</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Ashlesha Badgujar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
